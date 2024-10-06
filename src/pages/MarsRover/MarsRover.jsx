@@ -5,7 +5,7 @@ const App = () => {
   const [countdown, setCountdown] = useState(3);
   const [showVideo, setShowVideo] = useState(false);
   const [showDescription, setShowDescription] = useState(false);
-  const videoFile = "./earth-bg.mp4"; // Ensure the path is correct
+  const videoFile = "public/earth-bg.mp4"; 
 
   useEffect(() => {
     const nasaCodeTimeout = setTimeout(() => {
