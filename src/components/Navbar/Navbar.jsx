@@ -93,7 +93,7 @@ function Navbar() {
     } else {
       return (
         <li className="navbar-list-item" onClick={() => handleNavAndScroll('contact')}>
-          <button className="btn btn-outline-light rounded-pill" type="submit">Contact Us</button>
+          <button className="btn btn-outline-light rounded-pill" type="submit">JWST 3D</button>
         </li>
       );
     }
@@ -116,7 +116,7 @@ function Navbar() {
             <NavLink className={({ isActive }) => ("rem-default " + (isActive ? ' active' : ''))} to="/marsrover">JWST</NavLink>
           </li>
           <li className="navbar-list-item" onClick={toggleMenu}>
-  <a className="rem-default" href="https://quiz-3-d.vercel.app/" target="_blank" rel="noopener noreferrer">AstroVR</a>
+  <a className="rem-default" href="https://quiz-3-d.vercel.app/" target="_blank" rel="noopener noreferrer">Interactives</a>
 </li>
           <li className="navbar-list-item" onClick={toggleMenu}>
             <NavLink className={({ isActive }) => ("rem-default " + (isActive ? ' active' : ''))} to="/about">About us</NavLink>
