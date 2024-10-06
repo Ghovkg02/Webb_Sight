@@ -122,8 +122,8 @@ function Navbar() {
             <NavLink className={({ isActive }) => ("rem-default " + (isActive ? ' active' : ''))} to="/about">About us</NavLink>
           </li>
           <li className="navbar-list-item" onClick={toggleMenu}>
-            <NavLink className={({ isActive }) => ("rem-default " + (isActive ? ' active' : ''))} to="/login">AstroVR</NavLink>
-          </li>
+  <a className="rem-default" href="https://vr-nine-xi.vercel.app/" target="_blank" rel="noopener noreferrer">AstroVR</a>
+</li>
           {renderContactLink()}
         </ul>
       </div>
