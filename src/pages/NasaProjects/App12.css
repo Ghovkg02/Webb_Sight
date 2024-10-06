@@ -1,0 +1,78 @@
+/* Full-screen container */
+.app-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Full-screen video background */
+  .video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* Invisible buttons */
+  .invisible-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0); /* Invisible */
+  }
+  
+  /* Video player */
+  .video-player {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+  
+  .video-element {
+    width: 600px;
+    height: auto;
+  }
+  
+  /* Toggle button */
+  .toggle-description {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: gold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .toggle-description:hover {
+    box-shadow: 0px 0px 15px gold;
+  }
+  
+  /* Description box */
+  .description-box {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    max-width: 300px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+  }
+  
