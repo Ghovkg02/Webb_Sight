@@ -50,7 +50,7 @@ const App = () => {
           </video>
           <button 
             className="launch-button" 
-            onClick={() => alert("Exploration Launched!")}
+            onClick={() => window.open("https://webbvid.vercel.app/", "_blank")}
           >
             Launch Exploration
           </button>
